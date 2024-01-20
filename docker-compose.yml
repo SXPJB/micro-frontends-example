@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  host-app:
+    build:
+      context: ./host-app
+      dockerfile: local.Dockerfile
+    ports:
+      - "3000:3000"
+  todo-commponents:
+    build:
+      context: ./todo-components
+      dockerfile: local.Dockerfile
+    ports:
+      - "3001:3001"

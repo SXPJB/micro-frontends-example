@@ -1,0 +1,6 @@
+./host-app/node_modules
+.idea
+./host-app/dist
+
+./todo-components/node_modules
+./todo-components/dist
